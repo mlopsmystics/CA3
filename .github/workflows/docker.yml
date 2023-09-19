@@ -23,5 +23,5 @@ jobs:
 
       - name: Push Docker iamge
         run: |
-          docker tag mlopsmystics:latest ${{ secrets.DOCKER_USERNAME }}/mlopsmystics:latest
-          docker push ${{ secrets.DOCKER_USERNAME }}/mlopsmystics:latest
+          docker tag mlopsmystics:latest ${{ secrets.DOCKER_USERNAME }}/ca3:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/ca3:latest
