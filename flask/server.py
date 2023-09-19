@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return jsonify({'CA':'3', 'Member 1':'Muhammad Shehzad (20I-1756)'})
+    return jsonify({'CA':'3', 'Member 1':'Muhammad Shehzad (20I-1756)', 'Member 2':'Zahid Imran (20I-0469)'})
 
 
 @app.route('/cal/add/<num1>/<num2>')
