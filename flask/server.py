@@ -6,9 +6,13 @@ app = Flask(__name__)
 def home():
     return "CA3"
 
-@app.route("/Division")
+@app.route("/division")
 def division(num1,num2):
-    return 
+    if num1==0:
+        return "Wrong Input"
+    else:
+        return num1/num2
+
 
 if __name__ == "__main__":
     app.run(port=5000,debug=True)
