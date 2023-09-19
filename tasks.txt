@@ -6,3 +6,4 @@ i200512
 
 i200469
    Division
+   Multiplication
