@@ -16,6 +16,8 @@ def add(num1, num2):
     except ValueError:
         return jsonify({"error": "Invalid input. Please provide valid numbers."})
 
+
+#div function added
 @app.route('/cal/div/<num1>/<num2>')
 def div(num1, num2):
     try:
