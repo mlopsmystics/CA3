@@ -26,8 +26,8 @@ def sub(num1, num2):
         return jsonify({"error": "Invalid input. Please provide valid numbers."})
 
 #div function added
-@app.route('/cal/sub/<num1>/<num2>')
-def sub(num1, num2):
+@app.route('/cal/div/<num1>/<num2>')
+def div(num1, num2):
     try:
         result = int(num1) // int(num2)
         return jsonify({"result": result})
