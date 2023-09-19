@@ -9,3 +9,7 @@ lint:
 	@pylint --fail-under=8 --exit-zero --max-line-length=120 src 
 	@echo "Done."
 
+run:
+	@echo "Running..."
+	@python flask/server.py
+	@echo "Done."
